@@ -1,36 +1,39 @@
 body {
-    color: #ff0000;
-    background: black;
-    margin: 0px;
-    font-family: "Chakra Petch", sans-serif;
-    margin-bottom: 100px;
+  color: #000000; /* texto preto */
+  background: white; /* fundo branco */
+  margin: 0px;
+  font-family: "Chakra Petch", sans-serif;
+  margin-bottom: 100px;
 }
 
 header {
-    border: solid 2px rgb(255, 0, 0);
-    padding: 20px;
-    font-size: 32px;
-    color: rgb(255, 0, 0);
+  border: solid 2px #333333;
+  padding: 20px;
+  font-size: 32px;
+  color: #333333;
+  text-align: center;
 }
 
 .chamada {
-    background: rgb(0, 0, 0);
-    padding-bottom: 80px;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
+  background: #f0f0f0;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
 }
 
 .chamada-texto {
-    margin-right: 5%;
+  margin-right: 5%;
 }
 
 h1 {
   font-size: 40px;
+  color: #111111;
 }
 
 p {
   font-size: 20px;
+  color: #555555;
 }
 
 img {
@@ -49,17 +52,20 @@ section {
 }
 
 .categoria-videos img {
-    opacity: 0.5;
-    height: 200px;
+  opacity: 0.7;
+  height: 200px;
+  border-radius: 4px;
 }
 
 .categoria-videos img:hover {
-    opacity: 1.0;
-    border: 1px solid green;
+  opacity: 1.0;
+  border: 2px solid #0077cc;
+  cursor: pointer;
 }
 
 .categoria h2 {
-    color: rgb(0, 255, 21);
+  color: #0077cc;
+  margin-bottom: 15px;
 }
 
 .categoria {
